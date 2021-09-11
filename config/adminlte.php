@@ -264,15 +264,20 @@ return [
             'text'        => 'Meus Usuários',
             'url'         => 'painel/users',
             'icon'        => 'far fa-fw fa-file',
+            'can'         => 'edit-users'
             // 'label'       => 4,
             // 'label_color' => 'success',
         ],
 
-        ['header' => 'account_setings'],
-
+        ['header' => 'Configurações'],
         [
-            'text' => 'Perfil',
-            'url'  => 'admin/settings',
+            'text' => 'Configurações do Site',
+            'url'  => 'painel/settings',
+            'icon' => 'far fa-fw fa-file',
+        ],
+        [
+            'text' => 'Meu Perfil',
+            'url'  => 'painel/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
         // [
